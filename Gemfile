@@ -66,3 +66,6 @@ end
 gem 'rsolr', '>= 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.6'
+
+# Add Bill's local gem until standard sources have updated
+gem "solr_ead", "0.7.5.bill", :source => 'http://gems.www.lib.umich.edu/'
