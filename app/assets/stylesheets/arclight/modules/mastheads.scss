@@ -1,0 +1,115 @@
+.al-homepage-masthead.jumbotron {
+  border-bottom: $default-border-styling;
+  padding: ($spacer * 2) $spacer $spacer;
+
+  .navbar-nav {
+    flex-direction: row;
+    font-weight: 700;
+    margin-bottom: ($spacer * 1);
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: ($spacer * 2);
+  }
+
+  .search-query-form {
+    margin-bottom: $spacer;
+    max-width: 100%;
+  }
+
+  .navbar {
+    padding-bottom: 0;
+
+    a {
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .masthead-center {
+      text-align: center;
+    }
+    h2 {
+      display: inline-block;
+    }
+    .nav-links {
+      justify-content: center !important;
+    }
+  }
+}
+
+
+.navbar-search {
+  // Undo some of Blacklight's extending of column classes.
+  .search-query-form {
+    flex-basis: auto !important;
+    max-width: 100% !important;
+  }
+}
+
+.within-collection-dropdown {
+  min-width: 0;
+
+  @include media-breakpoint-up(sm) {
+    width: 50% !important;
+  }
+
+  @include media-breakpoint-up(lg) {
+    min-width: 0;
+  }
+}
+
+.al-masthead {
+  h1, .h1 {
+    display: block;
+    font-size: $h2-font-size;
+    margin: 0;
+    padding: ($spacer * 1.5) ($spacer / 2);
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    font-weight: 700;
+
+  .active a {
+      color: $gray-700;
+    }
+  }
+
+  + .navbar-search {
+    border-bottom: $default-border-styling;
+    border-top: $default-border-styling;
+    margin-bottom: ($spacer / 2);
+
+    a {
+      font-weight: $font-weight-bold;
+    }
+
+    .active a {
+      color: $gray-700;
+    }
+
+    .navbar-toggler {
+      background-color: $white;
+      border: $default-border-styling;
+    }
+
+    .navbar-toggler-icon {
+      background-image: $navbar-light-toggler-icon-bg;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .nav-links {
+      justify-content: center !important;
+    }
+  }
+
+  @media (max-width: 992px) {
+    h1,
+    + .navbar-search {
+      text-align: center;
+    }
+  }
+}

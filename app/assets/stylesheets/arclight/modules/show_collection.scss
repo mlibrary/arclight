@@ -1,0 +1,65 @@
+// Collection context
+.al-sticky-sidebar {
+  position: sticky;
+  top: 0;
+}
+
+.al-show-sub-heading {
+  font-size: $h6-font-size;
+  text-transform: uppercase;
+
+  + dl > dt {
+    font-size: $font-size-sm;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+}
+
+.al-collection-actions-menu {
+  float: right;
+}
+
+.al-online-content-icon .blacklight-icons svg {
+  fill: $green;
+}
+
+p.media .col {
+  flex: auto;
+}
+// Access tab
+#access {
+  dl dt {
+    font-size: $font-size-sm;
+  }
+
+  dl dd {
+    line-height: 1.4;
+    margin-bottom: $spacer;
+  }
+
+  img {
+    margin-bottom: $headings-margin-bottom;
+    margin-right: $spacer;
+    max-height: 150px;
+    max-width: 150px;
+  }
+
+  .al-in-person-repository-name,
+  .al-in-person-repository-location,
+  .al-in-person-repository-contact {
+    font-size: $font-size-sm;
+    line-height: 1.25;
+  }
+
+  .al-repository-contact-city_state_zip_country {
+    margin-bottom: ($spacer / 2);
+  }
+}
+
+.al-digital-object.breadcrumb-item {
+  margin-bottom: ($spacer / 2);
+}
+
+p.media.breadcrumb-item {
+  margin-bottom: ($spacer / 2);
+}

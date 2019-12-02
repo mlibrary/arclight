@@ -1,0 +1,5 @@
+version: "2"
+exclude_patterns:
+  - "app/assets/javascripts/arclight/context_navigation.js"
+  - "vendor/assets/javascripts/**/*.js"
+  - "spec/**/*.rb"
