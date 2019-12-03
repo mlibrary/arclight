@@ -10,7 +10,7 @@ umich-bhl:
   country: 'USA'
   phone: ''
   contact_info: 'bentley.ref@umich.edu'
-  thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bhlexterior.jpg/150px-Bhlexterior.jpg'
+  thumbnail_url: 'https://pbs.twimg.com/profile_images/1110568415046107137/Sdu9v141_400x400.png'
   request_types:
     aeon_external_request_endpoint:
       request_url: https://example.com/aeon/aeon.dll
@@ -35,7 +35,7 @@ umich-scrc:
   country: 'USA'
   phone: ''
   contact_info: 'special.collections@umich.edu'
-  thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/University_of_Michigan_library_stacks.JPG'
+  thumbnail_url: 'https://pbs.twimg.com/media/EDjQV2-W4AE4Amf.jpg'
   request_types:
     aeon_external_request_endpoint:
       request_url: https://example.com/aeon/aeon.dll
@@ -61,6 +61,56 @@ umich-wlcl:
   phone: ''
   contact_info: 'clements-reference@umich.edu'
   thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/University_of_Michigan_August_2013_179_%28William_L._Clements_Library%29.jpg'
+  request_types:
+    aeon_external_request_endpoint:
+      request_url: https://example.com/aeon/aeon.dll
+      request_mappings:
+        url_params:
+          Action: 11
+          Type: 200
+        static:
+          SystemId: ArcLight
+          ItemInfo1: manuscript
+        accessor:
+          ItemTitle: collection_name
+cmich-chl:
+  name: 'Central Michigan University. Clarke Historical Library'
+  description: 'Clarke Historical Library was founded in 1954, when Dr. Norman C. Clarke, Sr. donated his collection of historical books and other materials to his alma mater, Central Michigan University. The Clarke Historical Library mainly collects and makes available to researchers both primary and secondary source collections documenting the history of Michigan, children’s literature, and Central Michigan University.'
+  building: 'Park Library'
+  address1: '250 East Preston Street'
+  address2: ''
+  city: 'Mount Pleasant'
+  state: 'MI'
+  zip: '48859'
+  country: 'USA'
+  phone: ''
+  contact_info: 'clarke@cmich.edu'
+  thumbnail_url: 'https://quod.lib.umich.edu/c/clarke/graphics/repo_20191001.jpg'
+  request_types:
+    aeon_external_request_endpoint:
+      request_url: https://example.com/aeon/aeon.dll
+      request_mappings:
+        url_params:
+          Action: 11
+          Type: 200
+        static:
+          SystemId: ArcLight
+          ItemInfo1: manuscript
+        accessor:
+          ItemTitle: collection_name
+umich-vrc:
+  name: 'University of Michigan. Visual Resources Collections'
+  description: 'The Visual Resources Collections (VRC) unit of the Department of the History of Art supports faculty, students, and staff of the department and units within the College of LS&A with their visual resource needs. VRC staff acquire images of visual culture, provide descriptive information specific to the study of art history, and assist in instruction for digitizing, describing, finding, and using images to aid in the study of visual culture.'
+  building: '45 Tappan Hall'
+  address1: '855 South University Avenue'
+  address2: ''
+  city: 'Ann Arbor'
+  state: 'MI'
+  zip: '48109-1357'
+  country: 'USA'
+  phone: '734.764.0386'
+  contact_info: 'vrum@umich.edu'
+  thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/University_of_Michigan_August_2013_181_%28Tappan_Hall%29.jpg/1200px-University_of_Michigan_August_2013_181_%28Tappan_Hall%29.jpg" alt="University of Michigan August 2013 181 (Tappan Hall).jpg'
   request_types:
     aeon_external_request_endpoint:
       request_url: https://example.com/aeon/aeon.dll
