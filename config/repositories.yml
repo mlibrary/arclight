@@ -1,0 +1,75 @@
+umich-bhl:
+  name: 'University of Michigan. Bentley Historical Library'
+  description: 'The Bentley Historical Library collects the materials for and promotes the study of the histories of two great, intertwined institutions, the State of Michigan and the University of Michigan. The Library is open without fee to the public, and we welcome researchers regardless of academic or professional affiliation.'
+  building: ''
+  address1: '1150 Beal Ave'
+  address2: ''
+  city: 'Ann Arbor'
+  state: 'MI'
+  zip: '48109-2113'
+  country: 'USA'
+  phone: ''
+  contact_info: 'bentley.ref@umich.edu'
+  thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bhlexterior.jpg/150px-Bhlexterior.jpg'
+  request_types:
+    aeon_external_request_endpoint:
+      request_url: https://example.com/aeon/aeon.dll
+      request_mappings:
+        url_params:
+          Action: 11
+          Type: 200
+        static:
+          SystemId: ArcLight
+          ItemInfo1: manuscript
+        accessor:
+          ItemTitle: collection_name
+umich-scrc:
+  name: 'University of Michigan. Special Collections Research Center'
+  description: 'In keeping with the University Library’s mission to collect, describe, preserve, and make available the record of human knowledge, the Special Collections Research Center acquires, cares for, interprets, and promotes the use of important collections of unique, rare, primary source, and other material in all formats and in a variety of subject areas.'
+  building: 'Harlan Hatcher Graduate Library (South)'
+  address1: '913 S. University Avenue'
+  address2: ''
+  city: 'Ann Arbor'
+  state: 'MI'
+  zip: '48109-1190'
+  country: 'USA'
+  phone: ''
+  contact_info: 'special.collections@umich.edu'
+  thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/University_of_Michigan_library_stacks.JPG'
+  request_types:
+    aeon_external_request_endpoint:
+      request_url: https://example.com/aeon/aeon.dll
+      request_mappings:
+        url_params:
+          Action: 11
+          Type: 200
+        static:
+          SystemId: ArcLight
+          ItemInfo1: manuscript
+        accessor:
+          ItemTitle: collection_name
+umich-wlcl:
+  name: 'University of Michigan. William L. Clements Library'
+  description: 'The William L. Clements Library is a rare book and manuscript repository located on the University of Michigan’s central campus in Ann Arbor, Michigan.'
+  building: ''
+  address1: '909 South University Avenue'
+  address2: ''
+  city: 'Ann Arbor'
+  state: 'MI'
+  zip: '48109'
+  country: 'USA'
+  phone: ''
+  contact_info: 'clements-reference@umich.edu'
+  thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/University_of_Michigan_August_2013_179_%28William_L._Clements_Library%29.jpg'
+  request_types:
+    aeon_external_request_endpoint:
+      request_url: https://example.com/aeon/aeon.dll
+      request_mappings:
+        url_params:
+          Action: 11
+          Type: 200
+        static:
+          SystemId: ArcLight
+          ItemInfo1: manuscript
+        accessor:
+          ItemTitle: collection_name
