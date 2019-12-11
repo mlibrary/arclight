@@ -182,7 +182,7 @@ CCASFLAGS =
 CCDEPMODE = depmode=none
 CFLAGS =  -Wall -fexceptions
 CPP = clang -E
-CPPFLAGS = -DRUBY_EXTCONF_H=\"extconf.h\" -I/Users/gordonl/.rbenv/versions/2.5.5/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  
+CPPFLAGS = -DRUBY_EXTCONF_H=\"extconf.h\" -I/Users/gordonl/.rbenv/versions/2.5.6/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=none
@@ -247,9 +247,9 @@ TARGET = X86_64
 TARGETDIR = x86
 TARGET_OBJ =  src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo
 VERSION = 3.99999
-abs_builddir = /Users/gordonl/n/um-arclight5/bundle/ruby/2.5.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x86_64-darwin18/man
+abs_builddir = /Users/gordonl/n/um-arclight5/bundle/ruby/2.5.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x86_64-darwin19/man
 abs_srcdir = /Users/gordonl/n/um-arclight5/bundle/ruby/2.5.0/gems/ffi-1.11.3/ext/ffi_c/libffi/man
-abs_top_builddir = /Users/gordonl/n/um-arclight5/bundle/ruby/2.5.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x86_64-darwin18
+abs_top_builddir = /Users/gordonl/n/um-arclight5/bundle/ruby/2.5.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x86_64-darwin19
 abs_top_srcdir = /Users/gordonl/n/um-arclight5/bundle/ruby/2.5.0/gems/ffi-1.11.3/ext/ffi_c/libffi
 ac_ct_AR = ar
 ac_ct_CC = clang
