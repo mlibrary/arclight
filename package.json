@@ -1,0 +1,10 @@
+{
+  "name": "um-arclight5",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-external-helpers": "^7.7.4",
+    "@babel/plugin-transform-modules-umd": "^7.7.4",
+    "@babel/preset-env": "^7.7.6"
+  }
+}
