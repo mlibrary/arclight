@@ -77,8 +77,8 @@
     <!-- The optional sortMissingLast and sortMissingFirst attributes are
          currently supported on types that are sorted internally as strings
          and on numeric types.
-	       This includes "string","boolean", and, as of 3.5 (and 4.x),
-	       int, float, long, date, double, including the "Trie" variants.
+         This includes "string","boolean", and, as of 3.5 (and 4.x),
+         int, float, long, date, double, including the "Trie" variants.
        - If sortMissingLast="true", then a sort on this field will cause documents
          without the field to come after documents with the field,
          regardless of the requested sort order (asc or desc).
