@@ -1,2 +1,0 @@
-gem 'rails-controller-testing'
-gem 'thor', '~> 0.20'
