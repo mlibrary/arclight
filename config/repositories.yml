@@ -1,5 +1,6 @@
 umich-bhl:
   name: 'University of Michigan. Bentley Historical Library'
+  visit_note: 'To review archival materials please contact the library prior to your visit'
   description: 'The Bentley Historical Library collects the materials for and promotes the study of the histories of two great, intertwined institutions, the State of Michigan and the University of Michigan. The Library is open without fee to the public, and we welcome researchers regardless of academic or professional affiliation.'
   building: ''
   address1: '1150 Beal Ave'
@@ -25,6 +26,7 @@ umich-bhl:
           ItemTitle: collection_name
 umich-scrc:
   name: 'University of Michigan. Special Collections Research Center'
+  visit_note: 'To physically review archival materials please contact the library prior to your visit'
   description: 'In keeping with the University Library’s mission to collect, describe, preserve, and make available the record of human knowledge, the Special Collections Research Center acquires, cares for, interprets, and promotes the use of important collections of unique, rare, primary source, and other material in all formats and in a variety of subject areas.'
   building: 'Harlan Hatcher Graduate Library (South)'
   address1: '913 S. University Avenue'
@@ -50,6 +52,7 @@ umich-scrc:
           ItemTitle: collection_name
 umich-wlcl:
   name: 'University of Michigan. William L. Clements Library'
+  visit_note: 'To physically review archival materials please contact the library prior to your visit'
   description: 'The William L. Clements Library is a rare book and manuscript repository located on the University of Michigan’s central campus in Ann Arbor, Michigan.'
   building: ''
   address1: '909 South University Avenue'
@@ -75,6 +78,7 @@ umich-wlcl:
           ItemTitle: collection_name
 cmich-chl:
   name: 'Central Michigan University. Clarke Historical Library'
+  visit_note: 'To physically review archival materials please contact the library prior to your visit'
   description: 'Clarke Historical Library was founded in 1954, when Dr. Norman C. Clarke, Sr. donated his collection of historical books and other materials to his alma mater, Central Michigan University. The Clarke Historical Library mainly collects and makes available to researchers both primary and secondary source collections documenting the history of Michigan, children’s literature, and Central Michigan University.'
   building: 'Park Library'
   address1: '250 East Preston Street'
@@ -100,6 +104,7 @@ cmich-chl:
           ItemTitle: collection_name
 umich-vrc:
   name: 'University of Michigan. Visual Resources Collections'
+  visit_note: 'To physically review archival materials please contact the library prior to your visit'
   description: 'The Visual Resources Collections (VRC) unit of the Department of the History of Art supports faculty, students, and staff of the department and units within the College of LS&A with their visual resource needs. VRC staff acquire images of visual culture, provide descriptive information specific to the study of art history, and assist in instruction for digitizing, describing, finding, and using images to aid in the study of visual culture.'
   building: '45 Tappan Hall'
   address1: '855 South University Avenue'
@@ -125,6 +130,7 @@ umich-vrc:
           ItemTitle: collection_name
 umich-mlib:
   name: 'University of Michigan. MLibrary Finding Aids'
+  visit_note: 'To physically review archival materials please contact the library prior to your visit'
   description: 'The MLibrary Library Information Technology division hosts an assortment of collection finding aids.'
   building: ''
   address1: '909 South University Avenue'
