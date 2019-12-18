@@ -141,7 +141,7 @@ umich-mlib:
   country: 'USA'
   phone: ''
   contact_info: ''
-  thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Libraries_the_University_of_Michigan.png'
+  thumbnail_url: 'https://arclight-testing.hydra.lib.umich.edu/mliblogo.png'
   request_types:
     aeon_external_request_endpoint:
       request_url: https://example.com/aeon/aeon.dll

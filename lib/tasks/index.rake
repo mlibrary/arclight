@@ -37,10 +37,25 @@ namespace :arclight do
   task :index_dir do
     raise 'Please specify your directory, ex. DIR=<path/to/directory>' unless ENV['DIR']
 
-    Dir.glob(File.join(ENV['DIR'], '*.xml')).each do |file|
+    Dir.glob(File.join(ENV['DIR'], '*.xml')).sort.each do |file|
       system("rake arclight:index FILE=#{file}")
     end
   end
+
+  desc 'Index a list of EADs, use DIR=<path/to/directory>, LIST=<path/to/list>, and REPOSITORY_ID=<myid>'
+  task :index_list do
+    raise 'Please specify your directory, ex. DIR=<path/to/directory>' unless ENV['DIR']
+    raise 'Please specify your list, ex. LIST=<path/to/list>' unless ENV['LIST']
+
+    to_index_array = []
+    to_index_array = IO.readlines(ENV['LIST'], "\n")
+
+    to_index_array.each do |file|
+      file_with_path =  "#{ENV['DIR']}/#{file}"
+      #system("rake arclight:index FILE=#{file_with_path}")
+      puts "FILE WITH PATH IS >#{file_with_path}<"
+    end
+  end  
 
   desc 'Index an EAD document, use URL=<http[s]://domain/path/to/ead.xml> and REPOSITORY_ID=<myid>'
   task :index_url do
