@@ -49,12 +49,24 @@ namespace :arclight do
 
     to_index_array = []
     to_index_array = IO.readlines(ENV['LIST'], "\n")
+    to_index_array.sort!
+
+    index_count = array_number = 0
+    index_count = to_index_array.count
 
     to_index_array.each do |file|
-      file_with_path =  "#{ENV['DIR']}/#{file}"
-      #system("rake arclight:index FILE=#{file_with_path}")
-      puts "FILE WITH PATH IS >#{file_with_path}<"
+      next if file.empty?      
+      file_with_path =  "#{ENV['DIR']}/#{file.chomp}"
+      puts "..."
+      puts "..."
+      array_number += 1
+      puts ">>> >>> Processing file #{file.chomp}, #{array_number} of #{index_count} from #{ENV['LIST']}."
+      system("rake arclight:index FILE=#{file_with_path}")
+      #puts "FILE WITH PATH IS >#{file_with_path}<"
     end
+    puts "..."
+    puts "..."
+    puts ">>> >>> >>> PROCESSING FOR #{ENV['LIST']} IS COMPLETE."
   end  
 
   desc 'Index an EAD document, use URL=<http[s]://domain/path/to/ead.xml> and REPOSITORY_ID=<myid>'
